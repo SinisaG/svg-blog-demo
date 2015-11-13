@@ -1,0 +1,24 @@
+{
+  "name": "svg-blog-demo",
+  "version": "1.0.0",
+  "description": "Demo of svg sprites",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SinisaG/svg-blog-demo.git"
+  },
+  "author": "Sinisa Grubor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SinisaG/svg-blog-demo/issues"
+  },
+  "homepage": "https://github.com/SinisaG/svg-blog-demo#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-connect": "^0.11.2",
+    "load-grunt-tasks": "^3.3.0"
+  }
+}
