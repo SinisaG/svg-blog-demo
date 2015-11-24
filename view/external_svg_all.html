@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Svg sprite demo</title>
+    <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+</head>
+    <body>
+        <div class="wrapper">
+            <div title="Url (external resource): /assets/svg/sprites.svg#ICON_NAME">
+                <h3>I work cross browser</h3>
+                <svg class="svg-icon">
+                    <use xlink:href="/assets/svg/sprites.svg#icon-social-twitter"></use>
+                </svg>
+                <svg class="svg-icon">
+                    <use xlink:href="/assets/svg/sprites.svg#icon-social-facebook"></use>
+                </svg>
+                <svg class="svg-icon">
+                    <use xlink:href="/assets/svg/sprites.svg#icon-social-google"></use>
+                </svg>
+            </div>
+            <div>
+                <a href="/index.html">Back</a>
+            </div>
+        </div>
+        <script src="/scripts/svg.js"></script>
+        <script>
+            svg4everybody();
+        </script>
+    </body>
+</html>

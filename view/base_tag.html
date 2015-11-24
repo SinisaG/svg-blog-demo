@@ -7,6 +7,7 @@
         <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
         <base href="/">
+        <script src="/scripts/svg.js"></script>
     </head>
     <body>
         <div class="wrapper">
@@ -36,7 +37,7 @@
             </div>
 
             <div title="Url (path included): /view/base_tag.html#ICON_NAME">
-                <h3>Full path - I work cross browser (hover svg)</h3>
+                <h3>Full path - I work cross browser (hover svg) - for IE9 support, we need to add svg for svg4everybody</h3>
                 <svg class="svg-icon">
                     <use xlink:href="/view/base_tag.html#icon-social-twitter"></use>
                 </svg>
@@ -52,5 +53,9 @@
                 <a href="/index.html">Back</a>
             </div>
         </div>
+        <script src="/scripts/svg.js"></script>
+        <script>
+            svg4everybody();
+        </script>
     </body>
 </html>
