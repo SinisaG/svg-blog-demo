@@ -1,14 +1,15 @@
 # svg-blog-demo
 Svg sprite usage demo
 
-
 This is just an example of svg glitches for blog post:
 
-https://onefootball.github.io//svg-sprites/
+https://onefootball.github.io/SVG-sprites/
 
-## Running
+## Demo
 
-### Locally
+http://5minfork.com/SinisaG/svg-blog-demo
+
+## Running locally
 
 ```
 git clone https://github.com/SinisaG/svg-blog-demo
@@ -16,6 +17,3 @@ npm install
 grunt serve
 ```
 
-### Remotely
-
-Go to http://5minfork.com/ and enter https://github.com/SinisaG/svg-blog-demo to input field.
